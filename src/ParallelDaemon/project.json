@@ -1,4 +1,4 @@
-﻿{
+{
   "version": "1.0.0-*",
   "buildOptions": {
     "emitEntryPoint": true
@@ -8,7 +8,9 @@
     "Microsoft.NETCore.App": {
       "type": "platform",
       "version": "1.0.1"
-    }
+    },
+    "NetMQ": "4.0.0-rc5",
+    "RabbitMQ.Client": "4.1.1"
   },
 
   "frameworks": {
