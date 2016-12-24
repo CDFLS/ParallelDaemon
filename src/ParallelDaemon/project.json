@@ -5,13 +5,11 @@
   },
 
   "dependencies": {
-    "Google.Protobuf": "3.1.0",
-    "Microsoft.NETCore.App": {
-      "type": "platform",
-      "version": "1.0.1"
-    },
+    "Microsoft.NETCore.App": "1.1.0",
+    "MsgPack.Cli": "0.8.0",
     "NetMQ": "4.0.0-rc5",
-    "RabbitMQ.Client": "4.1.1"
+    "RabbitMQ.Client": "4.1.1",
+    "YamlDotNet": "4.0.0"
   },
   "frameworks": {
     "netcoreapp1.0": {
@@ -19,6 +17,5 @@
     }
   },
   "scripts": {
-    "precompile": "protoc -I=protobuf --csharp_out=Protocol protobuf/*"
   }
 }
