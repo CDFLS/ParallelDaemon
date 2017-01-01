@@ -9,6 +9,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		global.json = global.json
 	EndProjectSection
+	ProjectSection(FolderGlobals) = preProject
+		__JSONSchema = 
+	EndProjectSection
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ParallelDaemon", "src\ParallelDaemon\ParallelDaemon.xproj", "{0B9903DD-5B9D-41AF-A300-E541C996D9AF}"
 EndProject

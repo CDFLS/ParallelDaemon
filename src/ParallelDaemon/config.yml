@@ -1,0 +1,4 @@
+﻿message_server: 192.168.123.210
+message_port: 5672
+message_exchange_web: cwoj_web
+message_exchange_main: cwoj_judge
